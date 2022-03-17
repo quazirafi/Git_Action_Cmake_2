@@ -46,7 +46,11 @@ jobs:
           cd Git_Action_Cmake_2_build
           cmake ../
           cmake --build .
-          cd ..
+          echo inside build
           ls
-          Git_Action_Cmake_2
+          pwd
+          cd ..
+          echo outside build
+          ls
+          pwd
 
