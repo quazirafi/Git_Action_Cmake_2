@@ -25,5 +25,10 @@ jobs:
     - name: Use cmake
       run: |
         cmake --version
+        mkdir Git_Action_Cmake_2_build
+        cd Git_Action_Cmake_2_build
+        cmake ../Git_Action_Cmake_2
+        cmake --build .
+        Git_Action_Cmake_2
         cmake --build .
         Git_Action_Cmake_2
