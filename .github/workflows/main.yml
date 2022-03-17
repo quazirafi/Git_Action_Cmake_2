@@ -32,4 +32,6 @@ jobs:
         # Git_Action_Cmake_2
         # cmake --build .
         # Git_Action_Cmake_2
-        cat CMakeLists.txt
+        # cat CMakeLists.txt
+        gcc test.cpp
+        ./a.out
