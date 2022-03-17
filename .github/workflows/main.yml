@@ -19,9 +19,9 @@ jobs:
     runs-on: ubuntu-latest'
     steps:
     - uses: actions/checkout@v2
-    - name: Use cmake
+    - name: compile c file
       run: |
-        cmake --version
+        # cmake --version
         # mkdir Git_Action_Cmake_2_build
         # cd Git_Action_Cmake_2_build
         # cmake ../Git_Action_Cmake_2
