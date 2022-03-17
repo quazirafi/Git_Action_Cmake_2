@@ -49,6 +49,7 @@ jobs:
           echo inside build
           ls
           pwd
+          /home/runner/work/Git_Action_Cmake_2/Git_Action_Cmake_2/Git_Action_Cmake_2_build/Git_Action_Cmake_2
           # cd ..
           # echo outside build
           # ls
