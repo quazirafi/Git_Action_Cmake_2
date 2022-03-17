@@ -35,3 +35,5 @@ jobs:
         # cmake ../Git_Action_Cmake_2
         # cmake --build .
         # Git_Action_Cmake_2
+        cd /home/runner/work/Git_Action_Cmake_2/Git_Action_Cmake_2/
+        ls
