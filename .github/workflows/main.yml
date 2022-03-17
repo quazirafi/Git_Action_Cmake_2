@@ -36,6 +36,10 @@ jobs:
           echo test, and deploy your project.
           echo this is another test application.
           cmake --version
-          gcc test.cpp
-          ./a.out
+          # gcc test.cpp
+          # ./a.out
+          # cmake ../Git_Action_Cmake_2
+          # cmake --build .
+          # Git_Action_Cmake_2
+          ls
 
