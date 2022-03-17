@@ -27,6 +27,9 @@ jobs:
         cmake --version
         ls
         pwd
+        cd ..
+        pwd
+        ls
         # mkdir Git_Action_Cmake_2_build
         # cd Git_Action_Cmake_2_build
         # cmake ../Git_Action_Cmake_2
