@@ -42,4 +42,8 @@ jobs:
           # cmake --build .
           # Git_Action_Cmake_2
           ls
+          mkdir Git_Action_Cmake_2_build
+          cd Git_Action_Cmake_2_build
+          cmake ../
+          cmake --build .
 
